@@ -6,7 +6,7 @@ MODULE_LICENSE("GPL");
 static int test_hello_init(void)
 {
     printk(KERN_INFO"%s: In init\n", __func__);
-    return 0;
+    return 0; // 0
 }
 
 static void test_hello_exit(void)
