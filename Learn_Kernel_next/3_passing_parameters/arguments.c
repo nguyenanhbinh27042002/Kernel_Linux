@@ -4,8 +4,8 @@
 MODULE_LICENSE("GPL");
 char *name = "Embedded";
 int loop_count = 1;
-//module_param(name, charp, S_IRUGO);
-module_param(name, charp, 0);
+module_param(name, charp, S_IRUGO);
+// module_param(name, charp, 0);
 module_param(loop_count, int, S_IRUGO);
 
 static int test_arguments_init(void)
