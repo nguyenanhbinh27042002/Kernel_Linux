@@ -1,0 +1,1 @@
+cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/Learn_Kernel_next/3_passing_parameters/Module.symvers := sed 's/\.ko$$/\.o/' /home/anhbinh/Build_Kernel/Kernel_Linux/Learn_Kernel_next/3_passing_parameters/modules.order | scripts/mod/modpost -m -a  -o /home/anhbinh/Build_Kernel/Kernel_Linux/Learn_Kernel_next/3_passing_parameters/Module.symvers -e -i Module.symvers   -T -
