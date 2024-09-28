@@ -1,0 +1,3 @@
+invbool is one type of parameters supported by module_param
+A boolean (true or false) value
+The invbool type inverts the value, so that true values become false and vice versa.
