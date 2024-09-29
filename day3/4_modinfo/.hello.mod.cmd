@@ -1,0 +1,1 @@
+cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/day3/4_modinfo/hello.mod := { echo  /home/anhbinh/Build_Kernel/Kernel_Linux/day3/4_modinfo/hello.o;  echo; } > /home/anhbinh/Build_Kernel/Kernel_Linux/day3/4_modinfo/hello.mod
