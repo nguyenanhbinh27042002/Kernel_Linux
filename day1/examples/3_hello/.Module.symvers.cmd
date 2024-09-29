@@ -1,0 +1,1 @@
+cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/Learn_Kernel/examples/3_hello/Module.symvers := sed 's/\.ko$$/\.o/' /home/anhbinh/Build_Kernel/Kernel_Linux/Learn_Kernel/examples/3_hello/modules.order | scripts/mod/modpost -m -a  -o /home/anhbinh/Build_Kernel/Kernel_Linux/Learn_Kernel/examples/3_hello/Module.symvers -e -i Module.symvers   -T -
