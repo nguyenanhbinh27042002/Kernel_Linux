@@ -1,7 +1,7 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 
-MODULE_LICENSE("Proprietary");
+MODULE_LICENSE("GPL"); // Proprietary
 extern int myadd(int a, int b);
 
 

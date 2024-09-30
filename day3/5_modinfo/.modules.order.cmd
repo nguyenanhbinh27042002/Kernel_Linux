@@ -1,0 +1,1 @@
+cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/day3/5_modinfo/modules.order := {   echo /home/anhbinh/Build_Kernel/Kernel_Linux/day3/5_modinfo/mod_info.ko; :; } | awk '!x[$$0]++' - > /home/anhbinh/Build_Kernel/Kernel_Linux/day3/5_modinfo/modules.order
