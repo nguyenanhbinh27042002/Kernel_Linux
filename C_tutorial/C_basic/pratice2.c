@@ -1,15 +1,21 @@
 #include "stdio.h"
+#include "stdlib.h"
 
-int weight;
-int height;
-int area;
-int perimeter;
-int main(){
-    height = 5;
-    weight = 7;
-    perimeter = 2*(weight+height);
-    printf("Perimeter of rectangle %d \n",perimeter);
-    area = weight*height;
-    printf("Area of rectangle %d \n",area);
+int main()
+{   int a,b;
+    printf("Enter the value a: \n");
+    scanf("%d",&a);
+
+    printf("Enter the value b: \n");
+    scanf("%d",&b);
+
+    // swap the value of pratice
+    int c;
+    c =a ;
+    a=b;
+    b=c;
+
+    printf("The value after a: %d\n",a);
+    printf("The value after b: %d\n",b);
     return 0;
 }
