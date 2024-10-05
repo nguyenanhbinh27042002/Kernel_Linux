@@ -10,10 +10,10 @@ int main()
     scanf("%d",&b);
 
     // swap the value of pratice
-    int c;
-    c =a ;
+    int temp;
+    temp =a ;
     a=b;
-    b=c;
+    b=temp;
 
     printf("The value after a: %d\n",a);
     printf("The value after b: %d\n",b);
