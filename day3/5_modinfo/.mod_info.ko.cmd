@@ -1,1 +1,0 @@
-cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/day3/5_modinfo/mod_info.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/anhbinh/Build_Kernel/Kernel_Linux/day3/5_modinfo/mod_info.ko /home/anhbinh/Build_Kernel/Kernel_Linux/day3/5_modinfo/mod_info.o /home/anhbinh/Build_Kernel/Kernel_Linux/day3/5_modinfo/mod_info.mod.o;  true

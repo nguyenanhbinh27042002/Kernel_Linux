@@ -1,1 +1,0 @@
-cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/module1.mod := { echo  /home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/module1.o;  echo; } > /home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/module1.mod

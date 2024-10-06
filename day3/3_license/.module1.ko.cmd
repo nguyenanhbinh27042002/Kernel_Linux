@@ -1,1 +1,0 @@
-cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/module1.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/module1.ko /home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/module1.o /home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/module1.mod.o;  true

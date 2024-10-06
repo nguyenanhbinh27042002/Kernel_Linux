@@ -1,1 +1,0 @@
-cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/Module.symvers := sed 's/\.ko$$/\.o/' /home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/modules.order | scripts/mod/modpost -m -a  -o /home/anhbinh/Build_Kernel/Kernel_Linux/day3/3_license/Module.symvers -e -i Module.symvers   -T -
