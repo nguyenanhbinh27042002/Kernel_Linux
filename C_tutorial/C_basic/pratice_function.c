@@ -1,25 +1,31 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-void printGreeting(){
-	printf("Hello words \n");
-}
-void printMinMax(int num1, int num2){
-	if (num1 < num2){
-		printf("The maximun %d\n",num2);
-		printf("The minimmun %d\n",num1);
-	}
-	else
-		printf("The maximun %d\n",num1);
-		printf("The minimun %d\n",num2);
 
+
+int Maxvalue(){
+    int num1,num2;
+    int num3;
+    printf("Enter the value of the 3 number \n");
+    scanf("%d%d%d",&num1,&num2,&num3);
+    if (num1>num2){
+        if(num1 > num3){
+            return num1;
+        }
+        else
+        {
+            return num3;
+        }
+        
+    }
+    else if( num2>num3){
+        return num2;
+    }
+    else return num3;
 }
 int main(){
-    int m, n;
-    printf("Enter the number m:");
-    scanf("%d",&m);
-    printf("Enter the number n:");
-    scanf("%d",&n);
-    printMinMax(m,n);
+    int max;
+    max = Maxvalue(); 
+    printf("The value of string function is max value is : %d \n",max);
     return 0;
 }
