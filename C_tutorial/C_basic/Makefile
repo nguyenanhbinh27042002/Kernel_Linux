@@ -1,5 +1,4 @@
 default:	
-	gcc -o code1.o pratice_arithemic.c
-	gcc -o code2.o pratice_function.c 
+	gcc -o code1.o convert_second.c 
 clean:
 	rm -f *.o 
