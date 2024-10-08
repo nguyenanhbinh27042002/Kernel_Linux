@@ -1,0 +1,1 @@
+cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/day4/11_print_hex_dump_bytes/Module.symvers := sed 's/\.ko$$/\.o/' /home/anhbinh/Build_Kernel/Kernel_Linux/day4/11_print_hex_dump_bytes/modules.order | scripts/mod/modpost -m -a  -o /home/anhbinh/Build_Kernel/Kernel_Linux/day4/11_print_hex_dump_bytes/Module.symvers -e -i Module.symvers   -T -

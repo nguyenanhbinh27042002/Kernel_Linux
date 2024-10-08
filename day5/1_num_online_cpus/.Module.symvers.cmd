@@ -1,0 +1,1 @@
+cmd_/home/anhbinh/Build_Kernel/Kernel_Linux/day5/1_num_online_cpus/Module.symvers := sed 's/\.ko$$/\.o/' /home/anhbinh/Build_Kernel/Kernel_Linux/day5/1_num_online_cpus/modules.order | scripts/mod/modpost -m -a  -o /home/anhbinh/Build_Kernel/Kernel_Linux/day5/1_num_online_cpus/Module.symvers -e -i Module.symvers   -T -
