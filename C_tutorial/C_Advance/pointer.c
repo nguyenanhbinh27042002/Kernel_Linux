@@ -16,5 +16,14 @@ int  main(){
     *ptrA = *ptrA+1 ;
     *ptrB = *ptrB+3;
     printf("The value new the number1 and number2 %d\t%d\n",num1,num2);
+
+    ptrA = ptrB;
+    ptrB = ptrA;
+    printf("num1 %d \t, num2 %d\n",num1,num2);
+    printf("*ptrA = %d, *ptrB = %d \n",*ptrA,*ptrB);
+
+    num1 = *ptrB;
+    num2 = num1 - 3 ;
+    printf("num1 = %d,num2 = %d \n",num1,num2);
     return 0;
 }
