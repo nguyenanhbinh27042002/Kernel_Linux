@@ -1,5 +1,5 @@
 defaults:
-	gcc -o code struct.c 
+	gcc -o code typedef.c 
 clean:
 	rm -f *.o 
 	

@@ -1,19 +1,25 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-struct point {
-	int x;
-	int y;
-}; 
+// struct point {
+// 	int x;
+// 	int y;
+// }; 
 
-struct date
-{
-	/*struct in day for using cusomized data */
+// struct date
+// {
+// 	/*struct in day for using cusomized data */
+// 	int day;
+// 	int months;
+// 	int year;
+// };
+
+/*typedef example */
+typedef struct date{
 	int day;
 	int months;
 	int year;
-};
-
+}Date;
 int main()
 {
 	struct date graduteDate;
