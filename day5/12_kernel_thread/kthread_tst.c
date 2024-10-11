@@ -21,7 +21,7 @@ static int test_tasks_init(void)
 {
     pr_info("%s: In init\n", __func__);
     print_thread = kthread_run(threadfunc, NULL,
-				"print_running_cpu");
+				"bash"); //print_running_cpu
     return 0;
 }
 
