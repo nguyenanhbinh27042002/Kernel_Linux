@@ -1,5 +1,5 @@
-ldefaults:
-	gcc -o code.o typedef.c 
+defaults:
+	gcc -o test.o exercise1.c
+
 clean:
-	rm -f *.o 
-	
+	rm -f *.o
