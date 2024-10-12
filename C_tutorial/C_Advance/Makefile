@@ -1,5 +1,5 @@
 defaults:
-	gcc -o test.o exercise1.c
+	gcc -o test.o exercise2.c
 
 clean:
 	rm -f *.o

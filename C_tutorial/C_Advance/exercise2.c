@@ -11,7 +11,7 @@ void printPoint(Point pt){
 	printf("The value of y:%d\n",pt.y);
 }
 
-Point pointview()
+Point Inputpoint()
 {
 	Point pt;
 	printf("Enter value of x:\n");
@@ -21,8 +21,13 @@ Point pointview()
 	return pt;
 }
 int main(){
-	Point pt1;
-	pt1 = pointview();
+	Point pt1 = Inputpoint();
+	printf("The value before\n");
+	printPoint(pt1);
+	
+	printf("The value after\n");
+	pt1.x +=3;
+	pt1.y +=1;
 	printPoint(pt1);
 return 0;
 }
