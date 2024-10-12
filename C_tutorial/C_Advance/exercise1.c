@@ -5,8 +5,8 @@
 
 /*Exercise 2 :
 	Write the function :
-	Function 1: - get the function variable and prints it information
-	Function 2: -responsible for getting input from user and return it */
+	Function 1:-get the function variable and prints it information
+	Function 2:-responsible for getting input from user and return it*/
 
 typedef struct Point {
 	int x;
