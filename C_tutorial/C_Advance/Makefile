@@ -1,5 +1,5 @@
 defaults:
-	gcc -o test.o exercise2.c
+	gcc -o test.o struct_members.c
 
 clean:
 	rm -f *.o
